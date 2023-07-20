@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    overflow: scroll;
+}
+nav{
+    background-color: #2874f0;
+    height: 50px;
+    position:fixed;
+    width: 100%;
+
+}
+nav ul img{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 170px;
+
+}
+nav ul li{
+    display: inline-block;
+     margin: 20px;
+    margin-left:40px;
+
+    
+} 
+nav ul input{
+    width: 30vw;
+    height: 30px;
+    
+
+}
+ul i{
+    background-color: white;
+    padding: 8px;
+}
+nav ul button{
+    font-weight: bold;
+    width: 7vw;
+    height: 30px;
+    color: #2874f0;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+nav li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+i#sp{
+ 
+    color: white;
+    background-color: #2874f0;
+    left: 40px;
+}
+nav select{
+    width:15px;
+    position: relative;
+    right: 20px;
+    background-color: #2874f0;
+    color: white;
+}
+nav.one{
+    position: absolute;
+    right: 100px;
+}
+section{
+    position: relative;
+    top: 60px;
+}
+section ul li{
+    display: inline-block;
+    width: 5vw;
+    margin-left: 60px;
+    
+}
+section ul img{
+    width: 60px;
+
+}
+section ul{
+    position: relative;
+}
+section img{
+    width: 100vw;
+}
+.five{
+    position: relative;
+    top: 10px;
+}
+i{
+    position: relative;
+    right: 10px;
+    top: 1.5px;
+}
+section figure{
+    display: inline-block;
+}
+figure img{
+    /* border: 2px solid black; */
+    position: relative;
+    bottom: 20px;
+    width: 150px;
+    margin: 45px;
+}
+figure figcaption{
+    position: relative;
+    bottom: 60px;
+    margin-left: 80px;
+
+}
+section.two img{
+    display: inline-block;
+    width: 500px;
+}
+.four{
+    width: 100vw;
+}
